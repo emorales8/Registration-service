@@ -85,6 +85,6 @@ func handleRequests() {
 }
 
 func main() {
-	fmt.Println("You are using my-post-go-app")
+	fmt.Println("You are using my-post-go-app!")
 	handleRequests()
 }
