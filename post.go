@@ -67,7 +67,7 @@ func insertDB(w http.ResponseWriter, r *http.Request) {
 		panic(err.Error())
 	}
 	fmt.Fprintf(w, "New post was created")
-	fmt.Println("Successfully Inserted to myMariadb database")
+	fmt.Println("Successfully Inserted to myMariadb database!")
 
 	json.NewEncoder(w).Encode(car)
 
