@@ -37,7 +37,7 @@ func connect() {
 		panic(err.Error())
 	}
 
-	fmt.Println("Successfully Connected to MySQL database")
+	fmt.Println("Successfully Connected to mymariadb database")
 }
 
 func insertDB(w http.ResponseWriter, r *http.Request) {
